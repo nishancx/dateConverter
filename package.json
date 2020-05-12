@@ -1,0 +1,31 @@
+{
+  "name": "dateconverter",
+  "version": "1.0.0",
+  "description": "Convert from AD to BS and vice versa",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishancx/dateConverter.git"
+  },
+  "keywords": [
+    "date",
+    "converter"
+  ],
+  "author": "Nishan Chhetri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishancx/dateConverter/issues"
+  },
+  "homepage": "https://github.com/nishancx/dateConverter#readme",
+  "dependencies": {
+    "@sbspk/bs": "^1.0.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
